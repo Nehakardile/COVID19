@@ -77,7 +77,7 @@ export class AppComponent implements OnInit {
         this.overlays = [];
         this.Countries.push('Argentina', 'Austria', 'Australia', 'Belgium', 'Brazil', 'Egypt', 'Finland', 'France', 'Germany',
         'India', 'Indonesia', 'Ireland', 'Israel', 'Japan', 'Russia', 'Singapore', 'Korea', 'Spain', 'Taiwan',
-        'Sweden', 'United Kingdom', 'USA', 'Vietnam', 'China', 'Italy');
+        'Sweden', 'United Kingdom', 'USA', 'Vietnam', 'China', 'Italy', 'Canada');
         this.Provinces['California, San Diego'] = 'US';
         this.Provinces['Texas, Austin'] = 'US';
         this.Provinces['New South Wales'] = 'Australia';

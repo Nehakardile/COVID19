@@ -1,4 +1,4 @@
-<mat-toolbar color="warn">
+<mat-toolbar color="primary">
     <span>Covid-19 Tracker</span>
     <!-- This fills the remaining space of the current row -->
     <span class="example-fill-remaining-space"></span>
@@ -6,7 +6,6 @@
 
 <p-panel header="Total Cases Worldwide: {{totalData?.cases}}" [toggleable]="true" styleClass="mypanel" [style]="{'margin-bottom':'20px'}" >
     <p-gmap #gmap [options]="options" [overlays]="overlays" [style]="{'width':'100%','height':'650px'}" (onMapReady)="setMap($event)" ></p-gmap>
-</p-panel>
 <span>* Hover over the Placemarkers to get complete information</span>
 
 
